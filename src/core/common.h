@@ -15,6 +15,11 @@
 #include <switch.h>
 #endif
 
+#ifdef __EMSCRIPTEN__
+#include <emscripten.h>
+#include <emscripten/html5.h>
+#endif
+
 #include <stdint.h>
 #include <string.h>
 #include <math.h>
